@@ -1,9 +1,9 @@
 # UK-Used-Cars-Analysis
 ![image](https://user-images.githubusercontent.com/128192166/236651758-65a560ee-3fbc-41a2-921f-9a0c6cf890de.png)
 
-The aim of this analysis is to determine factors that will aid to predict how much a used car should be sold compared to the market and determine ideal selling period. To achieve this aim below business questions were asked:
+This analysis aims to determine factors that will aid in predicting the selling price of a used car compared to the market and determine the ideal selling period. To achieve this aim, below business questions were asked:
 
-•	What is the average price of each car models?
+•	What is the average price of each car model?
 
 •	What is the age of the cars?
 
@@ -31,8 +31,7 @@ The dataset was downloaded from an open source Kaggle https://www.kaggle.com/dat
 
 # Data Transformation and Combining
 
-Before data was transformed, the uncleaned data were deleted to avoid duplicates as they already exist as clean data. The data were imported into power bi using the folder option and then transformed into power query.
-Before the files were combined, the unwanted data properties were deleted.
+Before data transformation, uncleaned data were deleted to avoid duplicates as they already existed as clean data. The data were imported into power bi using the folder option and then transformed into Power query. Before the files were combined, the unwanted data properties were deleted.
 
 ![image](https://user-images.githubusercontent.com/128192166/236651920-3ff14d33-4e1b-4840-96b7-9384d11eb41b.png)
 ![image](https://user-images.githubusercontent.com/128192166/236651955-45e8d33d-a86d-4878-81b4-5af6bda20755.png)
@@ -44,8 +43,7 @@ Before the files were combined, the unwanted data properties were deleted.
 
 # Further Analysis
 
-After data was combined, I loaded into power bi for further analysis and visualization. 
-Below are steps I took to provide answers to the business questions:
+After combining data, I loaded it into power bi for further analysis and visualization. Below are the steps I took to provide answers to the business questions:
 
 •	I created a column to calculate the age of the car using the year of manufacture
 
@@ -66,25 +64,28 @@ Average Price per Model = CALCULATE(AVERAGE('UK Used cars'[price]),FILTER(ALLSEL
 
 # Summary of Findings and conclusion
 
-•	2019 is the year with the highest price. Which makes it the best year to sell and worst year to buy
+• 2019 was the year with the highest price, making it the best year to sell and the worst year to buy. There was a steady increase in price from 2010 to 2017. Prices dipped in 2018 (before the astronomical rise in 2019) and 2020 (probably due to the impact of COVID-19). 
 
-•	The most common fuel type is petrol. Petrol comes first with 55.16%, other fuel types are diesel(41.62%), hybrid (2.97%)
+• The most common fuel type was petrol. Petrol comes first with 55.16%, followed by diesel(41.62%), and hybrid comes a distant third (2.97%). 
 
-•	The average price per model of petrol is cheaper compare to others. The petrol price influenced the demand and supply
+• The average price per model of petrol was cheaper compared to others. The petrol price influenced the demand and supply. 
 
-•	Price and mileage are positively correlated, they move in tandem
+• Price and mileage were positively correlated; they move in tandem. 
 
-•	G class model has the highest average price of 99,000, followed closely by R8 model with 98,000
+• G class model had the highest average price of 99,000, followed closely by the R8 model at 98,000
 
-•	The year 2019 attributed most to the total price of 38.5% while 2011 attributed the lowest of 0.18% 
+• The year 2019 attributed most to the total price of 38.5%, while 2011 attributed the lowest of 0.18%
 
-•	The newer the car, the higher the price
+• The newer the car, the higher the price.
 
-•	The major factors that determines how much a used car should be sold are model, age, fuel type and mileage
+• Road tax generally had no impact on price. There was only one instance where road tax impacted (caused an increase) the price. 
+
+• The significant factors determining the selling price of used cars were model, age, fuel type, and mileage. 
 
 Connect with me on Linkedin https://www.linkedin.com/in/uduak-njoku
+Feel free to interact with my dashboard; https://www.novypro.com/project/uk-used-cars-report
 
-Feel free to interract with my dashboard; https://www.novypro.com/project/uk-used-cars-report
+
 
 
 
