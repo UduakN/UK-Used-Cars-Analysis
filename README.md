@@ -1,7 +1,7 @@
 # UK-Used-Cars-Analysis
 ![image](https://user-images.githubusercontent.com/128192166/236651758-65a560ee-3fbc-41a2-921f-9a0c6cf890de.png)
 
-The aim of this analysis is to determine factors that will aid to predict how much a used car should be compared to the market and determine ideal selling period. To achieve this aim below business questions were asked:
+The aim of this analysis is to determine factors that will aid to predict how much a used car should be sold compared to the market and determine ideal selling period. To achieve this aim below business questions were asked:
 
 •	What is the average price of each car models?
 
