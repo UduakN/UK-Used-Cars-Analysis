@@ -84,6 +84,8 @@ Average Price per Model = CALCULATE(AVERAGE('UK Used cars'[price]),FILTER(ALLSEL
 
 Connect with me on Linkedin https://www.linkedin.com/in/uduak-njoku
 
+Feel free to interract with my dashboard; https://www.novypro.com/project/uk-used-cars-report
+
 
 
 
