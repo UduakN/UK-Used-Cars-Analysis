@@ -1,4 +1,5 @@
-# UK-Used-Cars-Analysis
+# DECODING THE DYNAMICS OF UK USED CARS
+
 ![image](https://user-images.githubusercontent.com/128192166/236651758-65a560ee-3fbc-41a2-921f-9a0c6cf890de.png)
 
 This analysis aims to determine factors that will aid in predicting the selling price of a used car compared to the market and determine the ideal selling period. To achieve this aim, below business questions were asked:
